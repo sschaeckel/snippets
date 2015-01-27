@@ -20,12 +20,13 @@ public class RemoveItemsFromListExample {
 		 * 
 		 * night shift premium filter class
 		 * 
+		 * besser wirds dann mit Java 8, aber das steht gerade nicht zur Verfügung
+		 * 
 		 */
 		PropertiesConfiguration configuration = 
 				new PropertiesConfiguration("/Users/Steffen/workspace/snippets/src/com/schaeckel/snippets/app.properties");
 		
-		List<Integer> values = new ArrayList<Integer>();
-		values.addAll(Arrays.asList(1,2,3,4,5,6));
+		List<Integer> values = Arrays.asList(1,2,3,4,5,6); 
 
 		String filterClass = configuration.getString("filter.class");
 		Filter<Integer> filter = null;
