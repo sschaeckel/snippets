@@ -1,4 +1,4 @@
-package com.schaeckel.snippets.filter;
+package com.schaeckel.snippets.lists.filter;
 
 import java.util.List;
 

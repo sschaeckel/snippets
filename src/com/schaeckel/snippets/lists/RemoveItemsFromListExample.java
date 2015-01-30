@@ -1,4 +1,4 @@
-package com.schaeckel.snippets;
+package com.schaeckel.snippets.lists;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 
-import com.schaeckel.snippets.filter.DefaultFilter;
-import com.schaeckel.snippets.filter.Filter;
+import com.schaeckel.snippets.lists.filter.DefaultFilter;
+import com.schaeckel.snippets.lists.filter.Filter;
 
 public class RemoveItemsFromListExample {
 
@@ -23,7 +23,7 @@ public class RemoveItemsFromListExample {
 		 * 
 		 */
 		PropertiesConfiguration configuration = 
-				new PropertiesConfiguration("/Users/Steffen/workspace/snippets/src/com/schaeckel/snippets/app.properties");
+				new PropertiesConfiguration("/Users/Steffen/workspace/snippets/src/com/schaeckel/snippets/lists/app.properties");
 		
 		List<Integer> values = Arrays.asList(1,2,3,4,5,6); 
 
