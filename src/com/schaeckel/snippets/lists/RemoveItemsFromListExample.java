@@ -21,9 +21,10 @@ public class RemoveItemsFromListExample {
 		 * 
 		 * besser wirds dann mit Java 8, aber das steht gerade nicht zur Verfügung
 		 * 
+		 * TODO: Java 8
 		 */
 		PropertiesConfiguration configuration = 
-				new PropertiesConfiguration("/Users/Steffen/workspace/snippets/src/com/schaeckel/snippets/lists/app.properties");
+				new PropertiesConfiguration("/home/steffen/workspace/snippets/src/com/schaeckel/snippets/lists/app.properties");
 		
 		List<Integer> values = Arrays.asList(1,2,3,4,5,6); 
 

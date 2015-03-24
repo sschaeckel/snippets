@@ -12,3 +12,4 @@
 hs_err_pid*
 
 bin/com/schaeckel/snippets/app.properties
+/target/
