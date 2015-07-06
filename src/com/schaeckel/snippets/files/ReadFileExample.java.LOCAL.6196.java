@@ -36,7 +36,7 @@ public class ReadFileExample {
 		keys.forEach(System.out::println);
 		System.out.println("distinct(): " + (System.currentTimeMillis() - start) + " ms");
 
-		/*--------------------------------xxxxxxTest2xxxxxx-------------------*/
+		/*--------------------------------Test2xxxxxx-------------------*/
 		copyFileWithReadAllLines(path);
 
 		/*-------------------------------xx--------------------*/
