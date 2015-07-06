@@ -36,10 +36,10 @@ public class ReadFileExample {
 		keys.forEach(System.out::println);
 		System.out.println("distinct(): " + (System.currentTimeMillis() - start) + " ms");
 
-		/*--------------------------------Test-------------------*/
+		/*--------------------------------Test2-------------------*/
 		copyFileWithReadAllLines(path);
 
-		/*---------------------------------------------------*/
+		/*-------------------------------xx--------------------*/
 		copyFileWithStreamTrimList(path);
 
 		/*---------------------------------------------------*/
